@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width , initial-scale=1">
+		<!--FILES NEEDED-->
+		<!--JQuery-->
+		<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		
+		<!--BootStrap-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>		
+		<!--Custom JS-->
+		<script src="darkLord.js"></script>
+		
+		<!--/FILES NEEDED-->
+
+		<title>
+			Dark Lord Answers
+		</title>
+		
+		<style>
+			 
+			 
+			 body 
+			 {
+				background: url('bg.gif') no-repeat center fixed;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				background-size: cover;
+				-o-background-size: cover;
+				height:100%;
+			}
+		
+		</style>
+		
+		
+	</head>
+
+	<body>
+		
+		<div class="container-fluid full">
+	
+			
+			<div class="row" id="logo_gapuh" style="background-color:#545456;">
+				<center style="color: red;font-family:chiller"><u><h1>The Dark Lord Answers</h1></u></center>
+			</div>
+			
+			
+			<div class="row" id = "space">
+				<h1>  </h1>
+			</div>
+			
+			
+			<div class="row" id="instructions" >
+				<div class="col-md-0.5" id="side_space1">
+					
+				</div>
+				<div class="col-md-4" id="instructions_text">
+					
+					<center style="color: white; font-family:chiller; background-color:#6d0500;">
+					<u><h1>
+					Instructions
+					</h1></u>
+					
+					<h1>
+					You must praise the dark lord and your faith will be tested when you type this praise.
+					<br><br>Enter the following precisely in the praise text field:<br>
+					"Oh dark lord,grant me wisdom and grant me peace through your words"
+					<br><br>
+					After you praise the Dark Lord you may ask him any question you desire.
+					<br><br>
+					The more faith you have in him the less you have to praise him.
+					If you are sure you have enough faith, you may praise him as you like.
+					
+					</h1>
+					
+					</center>
+					
+					
+				</div>
+				
+				<div class="col-md-5" id="space2"></div>
+				
+				<div class="col-md-3" id="input_col">
+					<center style="color: white; font-family:chiller; background-color:#6d0500;">
+					<h1>Praise:</h1>
+					<input type="text"  id="namaye" class="form-control input-lg"><br>
+					<h1>Question:</h1>
+					<input type="text" " id="quest" class="form-control input-lg">
+					<br>
+					<h1 id="txt"></h1>
+					<br><br><br>
+					<button onclick="givans()" class="btn btn-default btn-lg"><h2>Request Answer</h2></button>
+					
+					</center>
+					
+						
+				</div>
+		    </div>
+			
+		</div>
+		<script>
+		 $("#namaye").keydown(prinner);
+		</script>
+
+
+		
+	<body>
+</html>
